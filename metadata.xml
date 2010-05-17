@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipojo>
+	<component immediate="true" classname="fr.imag.adele.cadse.si.loadPerspective.LoadPerspectiveImpl" 
+	factory="fr.imag.adele.cadse.si.loadPerspective.LoadPerspectiveImpl" architecture="true">
+		<provides specification="fr.imag.adele.cadse.workspace.as.loadservice.LoadService"/>
+	</component>
+	<instance component="fr.imag.adele.cadse.si.loadPerspective.LoadPerspectiveImpl" 
+		name="fr.imag.adele.cadse.si.loadPerspective.LoadPerspectiveImpl.instance"/>
+</ipojo>
